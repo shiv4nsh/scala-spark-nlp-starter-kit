@@ -5,7 +5,8 @@ val spark = "org.apache.spark" % "spark-core_2.11" % "2.0.0"
 val spark_sql = "org.apache.spark" % "spark-sql_2.11" % "2.0.0"
 val spark_mllib = "org.apache.spark" % "spark-mllib_2.11" % "2.0.0"
 val pdfbox = "org.apache.pdfbox" % "pdfbox" % "2.0.2"
-val coreNlp = "databricks" % "spark-corenlp" % "0.1"
+val coreNlp = "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0"
+
 
 lazy val commonSettings = Seq(
   organization := "com.knoldus",
